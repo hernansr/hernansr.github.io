@@ -1,0 +1,58 @@
+baseURL: 'https://renteria.me'
+languageCode: 'en-us'
+theme: 'hello-friend-ng'
+title: &author 'Hernan Renteria'
+author:
+  name: *author
+copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+params:
+  contact:
+    email: hernan@renteria.me
+  dateform: "Jan 2, 2006"
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04"
+  
+  subtitle: &subtitle "Error-driven YAML developer"
+  homeSubtitle: *subtitle
+
+  description: "My new homepage or blog"
+  keywords: "homepage, blog"
+  images: []
+
+  footer:
+    trademark: 2024
+    copyright: true
+    author: true
+    bottomText: [
+      "Powered by <a href=\"https://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  logo:
+    logoMark: "[hernan@renteria.me]$"
+    logoText: "hello friend!"
+    logoHomeLink: "/"
+  portrait:
+    path: "https://avatars.githubusercontent.com/u/22222476"
+    alt: "Portrait"
+    maxWidth: "100px"
+  social:
+  - name: "github"
+    url: "https://github.com/hernansr"
+  - name: "linkedin"
+    url: "https://linkedin.com/in/hrenteria"
+
+taxonomies:
+  category: "blog"
+  tag: "tags"
+  
+menu:
+  main:
+  - identifier: "about"
+    name: "About"
+    url: "about/"
+  - identifier: "posts"
+    name: "Posts"
+    url: "posts/"
