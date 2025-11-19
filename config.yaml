@@ -42,7 +42,7 @@ params:
   - name: "github"
     url: "https://github.com/hernansr"
   - name: "linkedin"
-    url: "https://linkedin.com/in/hrenteria"
+    url: "https://linkedin.com/in/hernansr"
 
 taxonomies:
   category: "blog"
