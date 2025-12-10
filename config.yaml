@@ -43,6 +43,8 @@ params:
     url: "https://github.com/hernansr"
   - name: "linkedin"
     url: "https://linkedin.com/in/hernansr"
+  - name: "certificate"
+    url: "https://www.credly.com/users/hernansr"
 
 taxonomies:
   category: "blog"
