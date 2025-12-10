@@ -9,8 +9,6 @@ copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_b
 params:
   contact:
     email: hernan@renteria.me
-  customCSS:
-    - "css/custom.css"
   dateform: "Jan 2, 2006"
   dateformShort: "Jan 2"
   dateformNum: "2006-01-02"
